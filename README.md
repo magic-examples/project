@@ -1,11 +1,14 @@
 ## @magic-themes/project
 
-foundational [@magic-theme](https://magic-themes.github.io/) for project presentation.
 
-pages this theme is used on:
-[@magic](https://magic.github.io)
-[@grundstein](https://grundstein.github.io)
-[@webboot](https://webboot.org)
+## about
+
+this is the
+[@magic-examples](https://magic-examples.github.io)
+project page.
+
+visit the [@magic-examples](https://github.com/magic-examples)
+github organization to see other examples
 
 [![NPM version][npm-image]][npm-url]
 [![Linux Build Status][travis-image]][travis-url]
@@ -27,32 +30,33 @@ pages this theme is used on:
 [snyk-image]: https://snyk.io/test/github/magic-themes/project/badge.svg
 [snyk-url]: https://snyk.io/test/github/magic-themes/project
 
-#### install:
-```bash
-npm install --save --save-exact @magic-themes/project
+
+### installation
+
+#### requirements
+
+* be in a directory you want to work in
+* have nodejs > 13.5.0 installed.
+
 ```
+// clone this repository
+git clone https://github.com/magic-examples/project
 
-#### usage:
+// go to the new project directoy
+cd ./project
 
-##### import:
-```javascript
-// config.mjs:
+// install @magic dependencies
+npm install
 
-export default {
-  //... other config
-  THEME: '@magic-themes/project',
+// run dev server
+npm run dev
 
-  // multiple themes
-  // THEME: [...other themes, '@magic-themes/project'],
-}
+// goto http://localhost:2323  in your browser to see the page
+
+// build changes you made to docs dir
+npm run build
+
+// publish changes, after committing them to the local git
+git push
+
 ```
-
-@magic will then import and use the theme automagically.
-
-#### changelog
-
-##### 0.0.1
-first release
-
-##### 0.0.2 - unreleased
-...
