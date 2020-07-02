@@ -40,7 +40,7 @@ github organization to see other examples
 
 ```
 // clone this repository
-git clone https://github.com/magic-examples/example ./your-project-name
+git clone https://github.com/magic-examples/project ./your-project-name
 
 // go to the new project directoy
 cd ./your-project-name
