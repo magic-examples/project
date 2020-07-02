@@ -40,10 +40,10 @@ github organization to see other examples
 
 ```
 // clone this repository
-git clone https://github.com/magic-examples/project
+git clone https://github.com/magic-examples/example ./your-project-name
 
 // go to the new project directoy
-cd ./project
+cd ./your-project-name
 
 // install @magic dependencies
 npm install
@@ -55,6 +55,10 @@ npm run dev
 
 // build changes you made to docs dir
 npm run build
+
+// reset the remotes to your repository
+git remote rename origin upstream
+git remote add origin git@provider.com/{your name}/{your repo}
 
 // publish changes, after committing them to the local git
 git push
