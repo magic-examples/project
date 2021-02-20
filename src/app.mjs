@@ -4,9 +4,7 @@ export const state = {
 
   branding: ['@', 'magic'],
 
-  menu: [
-    { to: '/#installation', text: 'setup' },
-  ],
+  menu: [{ to: '/#installation', text: 'setup' }],
 
   hero: {
     title: 'hero title',
