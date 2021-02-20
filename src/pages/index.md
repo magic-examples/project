@@ -33,7 +33,7 @@ npm install
 // run dev server
 npm run dev
 
-// goto http://localhost:2323  in your browser to see the page
+// goto http://localhost:2323 in your browser to see the page
 
 // build changes you made to docs dir
 npm run build
