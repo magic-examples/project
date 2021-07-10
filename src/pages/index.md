@@ -7,10 +7,10 @@
 ## about
 
 this is the
-[@magic-examples](https://magic-examples.github.io)
+[@magic-examples](https://magic-examples.github.io/)
 project page.
 
-visit the [@magic-examples](https://github.com/magic-examples)
+visit the [@magic-examples](https://github.com/magic-examples/)
 github organization to see other examples
 
 ### installation
@@ -33,7 +33,7 @@ npm install
 // run dev server
 npm run dev
 
-// goto http://localhost:2323 in your browser to see the page
+// goto http://localhost:2323/ in your browser to see the page
 
 // build changes you made to docs dir
 npm run build
