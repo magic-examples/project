@@ -1,6 +1,5 @@
 ## @magic-themes/project
 
-
 ## about
 
 this is the
@@ -30,13 +29,12 @@ github organization to see other examples
 [snyk-image]: https://snyk.io/test/github/magic-themes/project/badge.svg
 [snyk-url]: https://snyk.io/test/github/magic-themes/project
 
-
 ### installation
 
 #### requirements
 
-* be in a directory you want to work in
-* have nodejs > 14.2.0 installed.
+- be in a directory you want to work in
+- have nodejs > 14.2.0 installed.
 
 ```
 // clone this repository

@@ -17,8 +17,8 @@ github organization to see other examples
 
 #### requirements
 
-* be in a directory you want to work in
-* have nodejs > 13.5.0 installed.
+- be in a directory you want to work in
+- have nodejs > 13.5.0 installed.
 
 ```
 // clone this repository
@@ -42,4 +42,5 @@ npm run build
 git push
 
 ```
+
 </div>
